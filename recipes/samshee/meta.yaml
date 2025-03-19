@@ -1,13 +1,13 @@
 {% set name = "samshee" %}
-{% set version = "0.2.2" %}
+{% set version = "0.2.9" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://files.pythonhosted.org/packages/38/04/edcd9859eb00dd3b0258aba128890d7d537b72e227b96a5f19837b54afd9/samshee-0.2.2.tar.gz
-  sha256: 360427adb2d3913c3eca4d97ff55933a51dcb3d7d82559c44d9323f69e98addc
+  url: https://files.pythonhosted.org/packages/cc/fa/584427c81b961730f8f18122b33ed5aaf978119c007c09150addfadcba3d/samshee-0.2.9.tar.gz
+  sha256: be9c3efbcea77398bfa639ed73b5835352876bdf351e6086bfced7c304015530
 
 build:
   noarch: python
